@@ -54,7 +54,7 @@ $chuoi = "";
 			<tbody>
 				<tr>
 					<td>Mảng:</td>
-					<td><input type="text" name="nhap_mang" value="<?php if(isset($_POST['nhap_mang'])) echo $_POST['nhap_mang']; ?>" ></td>
+					<td><input type="text" name="nhap_mang" value="<?php if(isset($_POST['nhap_mang']))     echo $_POST['nhap_mang']; ?>" ></td>
 				</tr>
 				<tr>
 					<td>Số lần xuất hiện:</td>
