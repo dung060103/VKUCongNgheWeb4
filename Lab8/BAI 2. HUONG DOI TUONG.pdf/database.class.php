@@ -11,7 +11,7 @@
             mysqli_query($this->con, "set names 'utf8'");
             $rs = mysqli_query($this->con, $sql);
             return $rs;
-
+            
         }
         function table($sql, $header){
             $rs= $this->query($sql);
