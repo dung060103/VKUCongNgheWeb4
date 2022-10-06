@@ -10,7 +10,7 @@
                 $mail->Host = 'smtp.gmail.com';  //SMTP servers
                 $mail->SMTPAuth = true; // Enable authentication
 		    $nguoigui = 'ilovethubumbi@gmail.com';
-		    $matkhau = 'mazyvmjthmkrzzcg';// mật khẩu ứng dụng đã tạo ở bước 3
+		    $matkhau = '123';// mật khẩu ứng dụng đã tạo ở bước 3
             $tennguoigui = 'Nhập tên người gửi';
             $mail->Username = $nguoigui; // SMTP username
             $mail->Password = $matkhau;   // SMTP password

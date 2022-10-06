@@ -11,7 +11,7 @@ if (isset($_POST)) {
         $mail->Host = 'smtp.gmail.com';  //SMTP servers
         $mail->SMTPAuth = true; // Enable authentication
         $nguoigui = 'ilovethubumbi@gmail.com';
-		$matkhau = 'mazyvmjthmkrzzcg'; // đã tạo ở bước 3
+		$matkhau = '123'; // đã tạo ở bước 3
         $tennguoigui = 'LMD';
         $mail->Username = $nguoigui; // SMTP username
         $mail->Password = $matkhau;   // SMTP password
